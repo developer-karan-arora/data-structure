@@ -29,3 +29,6 @@ int* reverse(int arr[],int n){
   }
   return arr;
 }
+
+// developerkaran025@gmail.com
+// developerkaran025@gamil.com
