@@ -16,3 +16,16 @@ int main(){
   }
   return 0;
 }
+
+// alternative approach
+int* reverse(int arr[],int n){
+  int copy[n]={0};
+  for(int i=0;i<n;i++){
+    copy[i]=arr[i];
+  }
+
+  for(int i=n-1,j=0;i>=0;i--,j++){
+    arr[j]=copy[i];
+  }
+  return arr;
+}
