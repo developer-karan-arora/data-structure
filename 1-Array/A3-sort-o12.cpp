@@ -2,6 +2,13 @@
 #include<stdio.h>
 using namespace std;
 
+/*
+sorting 0 1 2
+
+1.) count app
+3.) sorting 
+2.) dnf dutch national flag
+*/
 // using count 
 void sort012(int a[], int n){
     int c0=0,c1=0,c2=0;

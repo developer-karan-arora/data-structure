@@ -2,6 +2,14 @@
 #include<stdio.h>
 using namespace std;
 
+/*
+move negative 
+
+1.) using 2 loops 
+2.) inverse sorting 
+3.) swap on +ve take +ve frnt
+*/
+
 // using negative index 
 void moveNeg(){
     int arr[9] = {0,1,-2,3,-4,5,-6,7,-8};

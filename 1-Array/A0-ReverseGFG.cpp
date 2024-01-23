@@ -3,9 +3,10 @@
 using namespace std;
 
 /*
-Linear Search
-Swapping 
-Recursive 
+1.) Reverse Traversal
+2.) Swapping 
+3.) Recursive 
+4.) Pointer approach
 */
 
 // ---------------- Linear search
@@ -63,6 +64,19 @@ void reverseRecursive(){
         cout<<arr[i] << " ";
     }
 }
+// alternative approach
+int* reverse(int arr[],int n){
+  int copy[n]={0};
+  for(int i=0;i<n;i++){
+    copy[i]=arr[i];
+  }
+
+  for(int i=n-1,j=0;i>=0;i--,j++){
+    arr[j]=copy[i];
+  }
+  return arr;
+}
+
 
 int main(){
     vector<int> v{1,2,4,7,8,45,23};

@@ -3,6 +3,14 @@
 
 using namespace std;
 
+/*
+kth minimum and maximum
+
+1.) sorting
+2.) heap priority queue
+3.) recursive / for app
+*/
+
 // using sorting technique
 void minSorting(int arr[],int n,int k){
     sort(arr,arr+n);

@@ -1,10 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 /*
-Linear search
-Sorting Technique
-Comparing In Pairs
-Tournament Method 
+minimum and maximum
+
+1.) Linear search
+2.) Sorting Technique
+3.) Comparing In Pairs
+4.) Tournament Method 
 */
 
 // ------- Linear search 

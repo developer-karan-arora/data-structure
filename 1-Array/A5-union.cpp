@@ -1,6 +1,18 @@
 #include<bits/stdc++.h>
 #include<stdio.h>
 using namespace std;
+/*
+union of 2 arrays
+
+1.) bruteforce 
+2.) hashmap
+3.) set structure
+
+Intersection
+1.) bruteforce 
+2.) hashmap
+3.) detect by array
+*/
 
 // ----------------------
 // using bruteforce
@@ -47,7 +59,7 @@ int doUnionSet(int a[], int n, int b[], int m)  {
     return st.size();
 }
 
-// using set 
+// using hashmap 
 void doUnion(int a[], int n, int b[], int m)  {
     unordered_map<int,int> mp;
     for(int i=0;i<n;i++){
