@@ -17,6 +17,7 @@ int main(){
   return 0;
 }
 
+
 // alternative approach
 int* reverse(int arr[],int n){
   int copy[n]={0};
