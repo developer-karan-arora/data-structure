@@ -1,7 +1,13 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+Linear search
+Sorting Technique
+Comparing In Pairs
+Tournament Method 
+*/
 
-// Linear search 
+// ------- Linear search 
 void minmaxLinear(int arr[],int n){
     int mx = INT_MIN, mn = INT_MAX;
     for(int i=0;i<n;i++){
@@ -13,7 +19,7 @@ void minmaxLinear(int arr[],int n){
     cout << "min :- " << mn << endl;
 }
 
-// sorting technique
+// ------ sorting technique
 void minmaxSort(int arr[],int n){
     int temp[n];
     for(int i=0;i<n;i++) temp[i]=arr[i];
@@ -23,7 +29,7 @@ void minmaxSort(int arr[],int n){
     cout << "min :- " << temp[0] << endl;
 }
 
-// comparing pairs 
+// ---------- comparing pairs 
 void minmaxPair(int arr[],int n){
     int Min,Max;
     int i=0;

@@ -2,7 +2,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-// ----------------
+/*
+Linear Search
+Swapping 
+Recursive 
+*/
+
+// ---------------- Linear search
 void reverseLinear(vector<int> arr){
     int n = arr.size();
     int rev[n] = {0};
@@ -17,7 +23,7 @@ void reverseLinear(vector<int> arr){
     }
 }
 
-// --------------
+// -------------- n/2 swapping 
 void reverseSwap(vector<int> arr){
     int n = arr.size();
     int s = 0,e = n-1;
@@ -34,7 +40,7 @@ void reverseSwap(vector<int> arr){
     }
 }
 
-// void recursive
+// ---------- void recursive
 void rev(int arr[],int s,int e){
     if(s>=e) return;
 
